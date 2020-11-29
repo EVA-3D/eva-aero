@@ -8,6 +8,20 @@ Item No.,Quantity,Name,Material
 7,1,V6-NOZZLE-ALL,- None -
 8,1,V6-BLOCK-CARTRIDGE,- None -
 9,1,SOCK,- None -
-10,7,DIN 912 M3 10 mm,- None -
-11,7,"M3  Hex nut ",- None -
+10,11,DIN 912 M3 10 mm,- None -
+11,18,"M3  Hex nut ",- None -
 12,1,aero_support,PETG
+13,1,back_corexy,PETG
+14,1,tension_slider_9mm_belt_M5,PETG
+15,1,tension_slider_9mm_belt_M5_mirror,PETG
+16,1,DIN 912 M3 25 mm,- None -
+17,1,5015 fan,- None -
+18,2,DIN 912 M5 45 mm,- None -
+19,2,M5  Hex nut Nyloc,- None -
+20,1,bottom_mgn12_short_duct,PETG
+21,2,DIN 912 M3 12 mm,- None -
+22,4,DIN 912 M3 35 mm,- None -
+23,1,Duct v2.1 Straight,PETG
+24,1,top_endstop_plug_mgn12,PETG
+25,1,top_mgn12,PETG
+26,1,DIN 912 M3 8 mm,- None -
