@@ -1,27 +1,42 @@
-Item No.,Quantity,Name,Material
+Item,Quantity,Name,Material
 1,1,aero_face,PETG
 2,2,face_belt_grabber,PETG
-3,1,TITAN-SINK-175-RH,- None -
-4,1,E-FAN-40x40x10,- None -
-5,1,EX_EXTRUDER_BODY_2,- None -
-6,1,V6-175-BREAK,- None -
-7,1,V6-NOZZLE-ALL,- None -
-8,1,V6-BLOCK-CARTRIDGE,- None -
-9,1,SOCK,- None -
-10,11,DIN 912 M3 10 mm,- None -
-11,18,"M3  Hex nut ",- None -
-12,1,aero_support,PETG
-13,1,back_corexy,PETG
-14,1,tension_slider_9mm_belt_M5,PETG
-15,1,tension_slider_9mm_belt_M5_mirror,PETG
-16,1,DIN 912 M3 25 mm,- None -
-17,1,5015 fan,- None -
-18,2,DIN 912 M5 45 mm,- None -
-19,2,M5  Hex nut Nyloc,- None -
-20,1,bottom_mgn12_short_duct,PETG
-21,2,DIN 912 M3 12 mm,- None -
-22,4,DIN 912 M3 35 mm,- None -
-23,1,Duct v2.1 Straight,PETG
-24,1,top_endstop_plug_mgn12,PETG
-25,1,top_mgn12,PETG
-26,1,DIN 912 M3 8 mm,- None -
+3,1,M_BEARING_SMR74ZZ,- None -
+4,1,M_BEARING_SMR74ZZ,- None -
+5,1,M_BEARING_SMR74ZZ,- None -
+6,1,M_BEARING_SMR74ZZ,- None -
+7,1,M_BEARING_SMR74ZZ,- None -
+8,1,M_BEARING_SMR74ZZ,- None -
+9,1,M_BEARING_SMR74ZZ,- None -
+10,1,M_BEARING_SMR74ZZ,- None -
+11,1,M_BEARING_SMR74ZZ,- None -
+12,1,M_BEARING_SMR74ZZ,- None -
+13,1,M_BEARING_SMR74ZZ,- None -
+14,1,TITAN-SINK-175-RH,- None -
+15,1,V6-175-BREAK,- None -
+16,1,V6-NOZZLE-ALL,- None -
+17,1,V6-BLOCK-CARTRIDGE,- None -
+18,1,SOCK,- None -
+19,1,SSX_tensioner (thing: 2426505),PETG
+20,13,DIN 912 M3 10 mm,- None -
+21,24,"M3  Hex nut ",- None -
+22,1,aero_support,PETG
+23,4,DIN 912 M3 16 mm,- None -
+24,1,aero_front_probe,- None -
+25,1,aero_front_probe_blank,- None -
+26,1,back_corexy,PETG
+27,1,tension_slider_9mm_belt_M5,PETG
+28,1,tension_slider_9mm_belt_M5_mirror,PETG
+29,1,DIN 912 M3 25 mm,- None -
+30,1,5015 fan,- None -
+31,2,DIN 912 M5 45 mm,- None -
+32,2,M5  Hex nut Nyloc,- None -
+33,1,top_endstop_plug_mgn12,PETG
+34,1,top_mgn12,PETG
+35,1,DIN 912 M3 8 mm,- None -
+36,4,DIN 912 M3 35 mm,- None -
+37,1,cable_holder,PETG
+38,1,unversal_cable_mount,PETG
+39,3,DIN 912 M3 12 mm,- None -
+40,1,bottom_mgn12_short_duct,PETG
+41,1,Duct v2.1 Straight,PETG
