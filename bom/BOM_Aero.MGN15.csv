@@ -1,0 +1,10 @@
+Item,Quantity,Name,Material
+1,1,bottom_mgn15_aero,PETG
+2,1,Duct v2.1 Straight,PETG
+3,3,"M3  Hex nut ",Hardened Alloy Steel
+4,4,DIN 912 M3 40 mm,Hardened Alloy Steel
+5,2,DIN 912 M3 25 mm,Hardened Alloy Steel
+6,4,DIN 912 M3 10 mm,Hardened Alloy Steel
+7,1,top_mgn15,PETG
+8,1,top_endstop_plug_mgn15,- None -
+9,1,DIN 912 M3 6 mm,Hardened Alloy Steel
