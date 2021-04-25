@@ -1,8 +1,24 @@
 ---
+title: Aero
+uid: EVA / Aero
+type: drive
 badges:
     - Official
+contributors: 
+    - pkucmus
+repo_url: https://github.com/EVA-3D/eva-aero
+cad_url: https://cad.onshape.com/documents/f3f73361f3085b5d2da46709/w/5849cc3ab4949426cacc9c89/e/12710eca96e60afa44cee204
+satisfies:
+    - drive
+    - hotend
 ---
 # Aero
+
+??? danger "Deprecation warning"
+
+    Aero will be be marked as obsolete in the next minor release of EVA. The reason is that while Aero served us well for all those years it is now not used very often while being plenty of work to maintain it (like every other drive).
+
+    Deprectaion means that this is the last release Aero got an update, next time it will be marked as *obsolete*. This means that it will stop receiving upgrades but will forever be available in the 2.3.0 version in it's [submodule repository](https://github.com/EVA-3D/eva-aero).
 
 ![preview](assets/Aero.__ALL__.png)
 
@@ -19,24 +35,32 @@ Assemble the carriage on the rail, add the motor and Aero last.
 !!! tip "Custom Titan Tension Arm"
 
     ![Placeholder](assets/SSX.png){: align=left }
-    The BOM contains my remix of the [E3D Titan Flex Upgrade](https://www.thingiverse.com/thing:2426505) thing which improves the Titan filament path greatly.  
+
+    The BOM contains my remix of the [E3D Titan Flex Upgrade](https://www.thingiverse.com/thing:2426505) thing which improves the Titan filament path greatly.
+
     My remix improves it's printability - print on the side where the spring is. No supports are needed.
 
-??? notice "MGN15"
+    You can ommit the `SSX_tensioner_thing_2426505` part from the BOM if you plan on using the original arm.
 
-    To mount EVA / Aero on a MGN15C carriage you will need a few different than the default parts and a few longer screws. The BOM replaces **only a few parts and screws** from the default BOM - for MGN15C you need to look at both - **what follows is not the full MGN15C BOM**.
+### Bill of materials
 
-{{ bom("drives/aero/bom/BOM_Aero.MGN15.csv", 4) }}
+=== "MGN12"
+
+    <add-bom-button name="{{ meta.uid }} (MGN12)">
+        {{ bom_to_json("Aero.MGN12.csv") }}
+    </add-bom-button>
+    
+    {{ bom_to_md_table("Aero.MGN12.csv", 4) }}
+
+
+=== "MGN15"
+
+    <add-bom-button name="{{ meta.uid }} (MGN15)">
+        {{ bom_to_json("Aero.MGN15.csv") }}
+    </add-bom-button>
+    
+    {{ bom_to_md_table("Aero.MGN15.csv", 4) }}
 
 ### Links
 
-{{ eva_download_button("aero") }}
-
-{{ eva_link("aero") }}
-
-{{ onshape_link("aero") }}
-
-### BOM
-
-{{ bom("drives/aero/bom/BOM_Aero.__ALL__.csv", 0) }}
-
+{{ eva_download_button() }}
