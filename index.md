@@ -63,4 +63,6 @@ Assemble the carriage on the rail, add the motor and Aero last.
 
 ### Links
 
-{{ eva_download_button() }}
+{{ download_button }}
+{{ cad_link }}
+
